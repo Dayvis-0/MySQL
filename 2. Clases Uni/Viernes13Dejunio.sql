@@ -10,7 +10,7 @@ CREATE TABLE Clientes (
 	Cidudad VARCHAR(50),
 	FechaRegistro DATE
 );
-
+ 
 CREATE TABLE Productos (
 	ProductoID INT,
 	NombreProducto VARCHAR(50),
