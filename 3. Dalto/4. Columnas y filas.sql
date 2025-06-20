@@ -1,10 +1,10 @@
 USE usuarios;
-USE northwind;
+USE Northwind;
 
 SHOW TABLES;
 
-DROP DATABASE northwind;
-CREATE DATABASE northwind;
+DROP DATABASE Northwind;
+CREATE DATABASE Northwind;
 
 SELECT * FROM customers;
 SELECT DATABASE();
