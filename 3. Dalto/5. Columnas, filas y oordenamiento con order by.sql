@@ -18,7 +18,7 @@ SHOW CREATE TABLE Products;
 INSERT INTO Products () VALUES ();
 SELECT * FROM Products ORDER BY ProductName; /*Viene por defecto con asc*/
 SELECT * FROM Products ORDER BY ProductName DESC; 
-/* Jerarquiav				Orden asc 		Orden desc
+/* Jerarquia 				Orden asc 		Orden desc
 NULL						primero			cuarto
 NUMEROS						segundo			tercero
 CARACTARES ESPECIALES		tercero			segundo

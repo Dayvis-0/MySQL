@@ -1,0 +1,1 @@
+/*La instruccion se utiliza para modificar los registros existentes en una tabla */

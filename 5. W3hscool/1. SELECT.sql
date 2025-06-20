@@ -1,4 +1,5 @@
-/*Sintaxis de select
+/* Se utiliza para seleccionar datos de una base de datos
+Sintaxis de select
 SELECT column1, column2, ...
 FROM table_name;*/
 
