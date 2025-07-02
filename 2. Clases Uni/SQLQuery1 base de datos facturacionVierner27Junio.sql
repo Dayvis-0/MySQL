@@ -69,12 +69,20 @@ INSERT INTO Clientes (Nombre, DNI, Direccion, Telefono, Email)
 VALUES 
 ('Juan Pérez', '12345678', 'Av. Perú 123', '987654321', 'juan@gmail.com'),
 ('Ana Gómez', '87654321', 'Jr. Lima 456', '912345678', 'ana@gmail.com');
+INSERT INTO Clientes (Nombre, DNI, Telefono, Email)
+VALUES
+('Dayvis Atao', '12345678', '912345678', 'dayvis@hotmail.com');
+
+DELETE 
+FROM Vendedores 
+WHERE Nombre = 'Dayvis Atao';
 
 -- Insertar datos en la tabla vendedores
 INSERT INTO Vendedores (Nombre, DNI, Telefono, Email)
 VALUES 
 ('Carlos Sánchez', '54632158', '998877665', 'carlos@empresa.com'),
 ('María Torres', '98745632', '987112233', 'maria@empresa.com');
+
 
 -- Insertar datos en el tabla categorias
 INSERT INTO Categorias (Nombre, Descripcion)
