@@ -9,12 +9,3 @@ FROM Orders
 INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
 
 SELECT * FROM Employees;
-
-SELECT 
-	Employees.FirstName,
-	Employees.LastName,
-	Region.RegionDescription
-FROM Employees 
-JOIN Region ON Employees
-	
-	
