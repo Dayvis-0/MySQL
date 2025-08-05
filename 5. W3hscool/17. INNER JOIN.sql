@@ -7,11 +7,8 @@ ON table.column_name = table2.column_name;*/
 
 /*Todos los pedidos con informacion del cliente
 Nota: La palabra clave INNER JOIN selecciona todas las filas de ambas filas de ambas tablas siempre que haya coincidencia
-entre las columnas. Si hay registros en la tabla de "Pedidos" que no tienen coincidencias en "Clientes", estos pedidos no ser */
+entre las columnas. Si hay registros en la tabla de "Pedidos" que no tienen coincidencias en "Clientes", estos pedidos no se mostraran*/
 SELECT Orders.OrderID, Customers.CustomerName
 FROM Orders
 INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
-
-SELECT Orders.OrderID, Customers.CustomerName
-FROM Orders
 
