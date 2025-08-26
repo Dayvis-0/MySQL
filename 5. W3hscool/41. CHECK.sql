@@ -1,0 +1,3 @@
+/*La restriccion CHECK se utiliza para limitar el rango de valores que se puede colocar en una columna
+Si defines a la restriccio CHECK en una columna permitira solo ciertos valores para esta columna
+Si defines a la restriccio CHECK en una tabla puede delimitar*/
