@@ -10,4 +10,6 @@ NOTA: El tipo de dato de fecha se establece para una columna cuando crea una nue
 SELECT * FROM Orders;
 SELECT * FROM Orders WHERE OrderDate = '1996-07-04';
 
--- NOTA: Se puede comparar facilmente dos fechas si no hay ningun componente de tiempo involucrado
+-- NOTA: Se puede comparar facilmente dos fechas si no hay ningun componente de tiempo involucrados
+DESCRIBE Orders;
+
